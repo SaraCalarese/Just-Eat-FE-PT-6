@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+    <link rel="stylesheet" href="../skeleton/common.css" />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="ordina-per">
+      <label for="order">Ordina per</label>
+      <select name="subscription" id="subscription">
+        <option value="best result">Risultato migliore</option>
+        <option value="feedbacks">Recensioni</option>
+        <option value="distance">Distanza</option>
+        <option value="delivery time">Tempo di consegna stimato</option>
+        <option value="minumin order">Ordine minimo</option>
+        <option value="delivery prices">Costi di consegna</option>
+      </select>
+    </div>
+    <div class="form-container">
+      <h1 class="form-title">177 Locali</h1>
+
+      <form>
+        <!-- Switch Aperto ora -->
+        <div class="form-group">
+          <label for="apertoOra">Aperto ora</label>
+          <label class="switch">
+            <input type="checkbox" id="apertoOra" />
+            <span class="slider"></span>
+          </label>
+        </div>
+
+        <!-- Switch Novità -->
+        <div class="form-group">
+          <label for="novita">Novità</label>
+          <label class="switch">
+            <input type="checkbox" id="novita" />
+            <span class="slider"></span>
+          </label>
+        </div>
+
+        <!-- Switch Consegna gratuita -->
+        <div class="form-group">
+          <label for="consegnaGratuita">Consegna gratuita</label>
+          <label class="switch">
+            <input type="checkbox" id="consegnaGratuita" />
+            <span class="slider"></span>
+          </label>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
