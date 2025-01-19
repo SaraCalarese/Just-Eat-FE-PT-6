@@ -35,8 +35,9 @@
 }
 
 /* Hover sugli options */
-.ordina-per option:hover {
-  background-color: #094dac; /*da verificare per incompatibilità*/
+
+.result:hover option {
+  background-color: #094dac; /* da verificare*/
 }
 
 .form-title,
