@@ -39,11 +39,15 @@
   background-color: #094dac; /*da verificare per incompatibilità*/
 }
 
-.form-title {
-  font-size: 24px;
+.form-title,
+.importo,
+.offerte-sconti,
+.esigenze-alimentari,
+.rating {
+  font-size: 17px;
   font-weight: bold;
   color: black;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .switch {
@@ -66,9 +70,10 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #ccc;
+  background-color: grey;
   transition: 0.4s;
   border-radius: 34px;
+  width: 40px;
 }
 
 .slider:before {
@@ -91,18 +96,185 @@ input:checked + .slider:before {
   transform: translateX(14px);
 }
 
-label {
-  font-size: 16px;
-  margin-left: 10px;
-  color: #333;
+.form-container {
+  max-width: 280px;
+}
+
+.aperto-ora,
+.novità,
+.consegna-gratuita {
+  font-size: 17px;
+  font-weight: bold;
+  color: black;
 }
 
 .form-group {
   margin-bottom: 20px;
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 .form-group:last-child {
   margin-bottom: 0;
+}
+/* Allinea il contenitore principale (price-container) */
+.price-container,
+.offer-container,
+.rating-container {
+  display: flex;
+  flex-direction: column; /* Allinea gli elementi in colonna */
+  gap: 10px; /* Distanza tra gli elementi */
+  align-items: flex-start; /* Allinea gli elementi a sinistra */
+}
+
+/* Contenitore per il titolo e l'icona */
+.importo-svg,
+.offerte-svg {
+  display: flex;
+
+  align-items: baseline;
+}
+
+.info {
+  fill: #f36805;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+/* Allineare le opzioni dei radio button */
+.mostra-tutti,
+.fino,
+.fino-a {
+  display: flex;
+  align-items: center; /* Allinea il testo e il radio button */
+  gap: 5px; /* Spazio tra il pallino e il testo */
+}
+
+/* Stile generico per i radio button */
+/* Rimuovi lo stile di default del radio button */
+.radio-input {
+  appearance: none; /* Per browser moderni */
+  -webkit-appearance: none; /* Per browser Webkit */
+  width: 20px; /* Dimensione del cerchio */
+  height: 20px;
+  border: 1px solid #b7bdbe; /* Bordo iniziale */
+  border-radius: 50%; /* Trasforma in cerchio */
+  background-color: white; /* Sfondo grigio chiaro */
+  display: inline-block;
+  position: relative; /* Necessario per il pallino interno */
+  cursor: pointer;
+  margin-right: 10px;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+/* Quando il radio è selezionato */
+.radio-input:checked {
+  background-color: #f36805; /* Sfondo arancione */
+}
+
+/* Pallino bianco al centro */
+.radio-input:checked::after {
+  content: ""; /* Elemento vuoto per il pallino */
+  width: 10px; /* Dimensione del pallino interno */
+  height: 10px;
+  background-color: white; /* Colore del pallino */
+  border-radius: 50%; /* Trasforma in cerchio */
+  position: absolute;
+  top: 50%; /* Centra verticalmente */
+  left: 50%; /* Centra orizzontalmente */
+  transform: translate(-50%, -50%); /* Centra il pallino interno */
+}
+
+/* Stile per i contenitori delle classi */
+.mostra-tutti label,
+.fino label,
+.fino-a label {
+  font-size: 15px; /* Dimensione del testo */
+  cursor: pointer; /* Cambia il puntatore per indicare cliccabilità */
+}
+
+/* Rimuovi lo stile di default del radio button */
+.carta,
+.offerte {
+  appearance: none; /* Per browser moderni */
+  -webkit-appearance: none; /* Per browser Webkit */
+  width: 20px; /* Dimensione del cerchio */
+  height: 20px;
+  border: 1px solid #b7bdbe; /* Bordo iniziale */
+
+  background-color: white;
+  display: inline-block;
+  position: relative; /* Necessario per il pallino interno */
+  cursor: pointer;
+  margin-right: 10px;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+/* Quando il radio è selezionato */
+.carta:checked,
+.offerte:checked {
+  background-color: #f36805; /* Sfondo arancione */
+}
+
+/* Pallino bianco al centro */
+.carta:checked::after,
+.offerte:checked::after {
+  content: "✔"; /* Spunta bianca */
+  position: absolute;
+  color: white;
+  font-size: 16px;
+  transition: opacity 0.3s ease;
+}
+
+/* Stile per i contenitori delle classi */
+.offerte-11,
+.carta-fedeltà,
+.halal {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 15px; /* Dimensione del testo */
+  cursor: pointer; /* Cambia il puntatore per indicare cliccabilità */
+}
+
+.disabilitato {
+  width: 20px;
+  height: 20px;
+}
+
+/* Stile delle stelline */
+.stars {
+  display: inline-block;
+  direction: rtl; /* Mostra le stelle da destra a sinistra */
+  font-size: 40px;
+  color: #ccc; /* Colore di base (grigio) */
+}
+
+/* Nascondi i radio button */
+input[type="radio"] {
+  display: none;
+}
+
+/* Stile delle stelline (etichetta) */
+.star {
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+/* Quando una stellina è selezionata (radio button checked) */
+input[type="radio"]:checked ~ label {
+  color: #f36805; /* Colore per la stellina selezionata */
+}
+
+/* Quando l'utente passa sopra la stellina (hover) */
+.star:hover,
+input[type="radio"]:checked ~ label:hover {
+  color: #f36805; /* Colore quando l'utente passa sopra */
+}
+
+/* Aggiungere l'effetto di rimpicciolimento della stellina al clic */
+input[type="radio"]:active ~ label {
+  transform: scale(0.9); /* Rimpicciolisce leggermente */
 }

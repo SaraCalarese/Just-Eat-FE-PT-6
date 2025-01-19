@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="index.css" />
   </head>
   <body>
+    <!-- Sezione per l'ordinamento -->
     <div class="ordina-per">
       <label for="order">Ordina per</label>
       <select name="subscription" id="subscription">
@@ -19,13 +20,15 @@
         <option value="delivery prices">Costi di consegna</option>
       </select>
     </div>
+
+    <!-- Contenitore per il form -->
     <div class="form-container">
-      <h1 class="form-title">177 Locali</h1>
+      <h3 class="form-title">177 locali</h3>
 
       <form>
         <!-- Switch Aperto ora -->
         <div class="form-group">
-          <label for="apertoOra">Aperto ora</label>
+          <label class="aperto-ora" for="apertoOra">Aperto ora</label>
           <label class="switch">
             <input type="checkbox" id="apertoOra" />
             <span class="slider"></span>
@@ -34,7 +37,7 @@
 
         <!-- Switch Novità -->
         <div class="form-group">
-          <label for="novita">Novità</label>
+          <label class="novità" for="novita">Novità</label>
           <label class="switch">
             <input type="checkbox" id="novita" />
             <span class="slider"></span>
@@ -43,13 +46,124 @@
 
         <!-- Switch Consegna gratuita -->
         <div class="form-group">
-          <label for="consegnaGratuita">Consegna gratuita</label>
+          <label class="consegna-gratuita" for="consegnaGratuita"
+            >Consegna gratuita</label
+          >
           <label class="switch">
             <input type="checkbox" id="consegnaGratuita" />
             <span class="slider"></span>
           </label>
         </div>
       </form>
+
+      <!-- Sezione per l'importo minimo dell'ordine -->
+      <div class="price-container">
+        <div class="importo-svg">
+          <h3 class="importo">Importo minimo dell'ordine</h3>
+          <span>
+            <svg
+              class="info"
+              viewBox="0 0 16 16"
+              width="1em"
+              height="1em"
+              role="presentation"
+              focusable="false"
+              aria-hidden="true"
+            >
+              <path
+                d="M8 1.219A6.781 6.781 0 1014.781 8 6.79 6.79 0 008 1.219zm0 12.25A5.469 5.469 0 118 2.53a5.469 5.469 0 010 10.938zM7.344 7.29h1.312v3.334H7.344V7.291zm1.531-1.916a.875.875 0 11-1.75 0 .875.875 0 011.75 0z"
+              ></path>
+            </svg>
+          </span>
+        </div>
+        <div class="mostra-tutti">
+          <input
+            class="radio-input"
+            type="radio"
+            id="mostraTutti"
+            name="opzione"
+          />
+          <label for="mostraTutti">Mostra tutti (177)</label>
+        </div>
+        <div class="fino">
+          <input class="radio-input" type="radio" id="fino" name="opzione" />
+          <label for="fino">Fino a 10,00 € (170)</label>
+        </div>
+        <div class="fino-a">
+          <input class="radio-input" type="radio" id="finoA" name="opzione" />
+          <label for="finoA">Fino a 15,00 € (175)</label>
+        </div>
+      </div>
+
+      <!-- Checkbox per Offerte e sconti -->
+      <form>
+        <div class="offer-container">
+          <div class="offerte-svg">
+            <h3 class="offerte-sconti">Offerte e sconti</h3>
+            <span>
+              <svg
+                class="info"
+                viewBox="0 0 16 16"
+                width="1em"
+                height="1em"
+                role="presentation"
+                focusable="false"
+                aria-hidden="true"
+              >
+                <path
+                  d="M8 1.219A6.781 6.781 0 1014.781 8 6.79 6.79 0 008 1.219zm0 12.25A5.469 5.469 0 118 2.53a5.469 5.469 0 010 10.938zM7.344 7.29h1.312v3.334H7.344V7.291zm1.531-1.916a.875.875 0 11-1.75 0 .875.875 0 011.75 0z"
+                ></path>
+              </svg>
+            </span>
+          </div>
+          <div class="offerte-11">
+            <input
+              class="offerte"
+              type="checkbox"
+              id="offerte"
+              name="offerte"
+            />
+            <label for="pro">Offerte (11)</label>
+          </div>
+          <div class="carta-fedeltà">
+            <input class="carta" type="checkbox" id="carta" name="carta" />
+            <label for="carta">Carta fedeltà (36)</label>
+          </div>
+        </div>
+      </form>
+      <!--Checkbox disabilitata per esigenze alimentari-->
+      <form>
+        <h3 class="esigenze-alimentari">Esigenze alimentari</h3>
+        <div class="halal">
+          <input
+            class="disabilitato"
+            type="checkbox"
+            id="myCheckbox"
+            disabled
+          />
+          <label for="myCheckbox">Halal (0)</label>
+        </div>
+      </form>
+      <!--Valutazione-->
+      <div class="rating-container">
+        <h3 class="rating">Valutazione</h3>
+        <div class="stars">
+          <input type="radio" id="star5" name="rating" value="5" />
+          <label for="star5" class="star">&#9733;</label>
+
+          <input type="radio" id="star4" name="rating" value="4" />
+          <label for="star4" class="star">&#9733;</label>
+
+          <input type="radio" id="star3" name="rating" value="3" />
+          <label for="star3" class="star">&#9733;</label>
+
+          <input type="radio" id="star2" name="rating" value="2" />
+          <label for="star2" class="star">&#9733;</label>
+
+          <input type="radio" id="star1" name="rating" value="1" />
+          <label for="star1" class="star">&#9733;</label>
+        </div>
+      </div>
     </div>
   </body>
 </html>
