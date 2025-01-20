@@ -1,0 +1,6 @@
+.form-container {
+  display: flex;
+  position: relative;
+  max-width: 304px;
+  padding-right: 16px;
+}

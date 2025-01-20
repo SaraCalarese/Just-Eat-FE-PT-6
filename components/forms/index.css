@@ -254,7 +254,7 @@ input:checked + .slider:before {
 }
 
 /* Nascondi i radio button */
-input[type="radio"] {
+.no-show {
   display: none;
 }
 
@@ -265,7 +265,7 @@ input[type="radio"] {
 }
 
 /* Quando una stellina è selezionata (radio button checked) */
-input[type="radio"]:checked ~ label {
+.no-show:checked ~ label {
   color: #f36805; /* Colore per la stellina selezionata */
 }
 
@@ -276,6 +276,6 @@ input[type="radio"]:checked ~ label:hover {
 }
 
 /* Aggiungere l'effetto di rimpicciolimento della stellina al clic */
-input[type="radio"]:active ~ label {
+.no-show:active ~ label {
   transform: scale(0.9); /* Rimpicciolisce leggermente */
 }
