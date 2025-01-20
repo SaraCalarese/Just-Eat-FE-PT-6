@@ -127,6 +127,7 @@ input:checked + .slider:before {
   flex-direction: column; /* Allinea gli elementi in colonna */
   gap: 10px; /* Distanza tra gli elementi */
   align-items: flex-start; /* Allinea gli elementi a sinistra */
+  padding-top: 20px;
 }
 
 /* Contenitore per il titolo e l'icona */
