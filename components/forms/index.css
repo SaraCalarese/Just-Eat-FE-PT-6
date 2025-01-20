@@ -35,8 +35,9 @@
 }
 
 /* Hover sugli options */
-.ordina-per option:hover {
-  background-color: #094dac; /*da verificare per incompatibilità*/
+
+.result:hover option {
+  background-color: #094dac; /* da verificare*/
 }
 
 .form-title,
@@ -126,6 +127,7 @@ input:checked + .slider:before {
   flex-direction: column; /* Allinea gli elementi in colonna */
   gap: 10px; /* Distanza tra gli elementi */
   align-items: flex-start; /* Allinea gli elementi a sinistra */
+  padding-top: 20px;
 }
 
 /* Contenitore per il titolo e l'icona */
@@ -253,7 +255,7 @@ input:checked + .slider:before {
 }
 
 /* Nascondi i radio button */
-input[type="radio"] {
+.no-show {
   display: none;
 }
 
@@ -264,7 +266,7 @@ input[type="radio"] {
 }
 
 /* Quando una stellina è selezionata (radio button checked) */
-input[type="radio"]:checked ~ label {
+.no-show:checked ~ label {
   color: #f36805; /* Colore per la stellina selezionata */
 }
 
@@ -275,6 +277,6 @@ input[type="radio"]:checked ~ label:hover {
 }
 
 /* Aggiungere l'effetto di rimpicciolimento della stellina al clic */
-input[type="radio"]:active ~ label {
+.no-show:active ~ label {
   transform: scale(0.9); /* Rimpicciolisce leggermente */
 }
