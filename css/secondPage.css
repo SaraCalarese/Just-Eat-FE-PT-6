@@ -1,0 +1,19 @@
+.second-page-container {
+  display: grid;
+  height: 100vh;
+  width: 100%;
+  grid-template-rows: auto 1fr;
+  grid-template-columns: 500px 1fr;
+  grid-template-areas:
+    "header header"
+    "aside main";
+}
+
+.header-second-page-container {
+  grid-area: header;
+}
+
+.form-container {
+  grid-area: aside;
+  margin-left: 200px;
+}
