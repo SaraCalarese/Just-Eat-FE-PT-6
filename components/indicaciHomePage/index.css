@@ -1,0 +1,20 @@
+.position svg {
+  fill: #f36805;
+}
+
+.semplicissimo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 320px;
+  max-height: 180px;
+}
+
+.under-position {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.under-under-position {
+  font-size: 16px;
+}
