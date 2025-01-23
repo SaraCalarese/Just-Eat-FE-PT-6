@@ -1,0 +1,26 @@
+.voglia {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+
+  height: 300px;
+  width: 336px;
+  padding: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.spunta,
+.timbri {
+  display: inline;
+  font-size: 20px;
+}
+
+.programma svg {
+  fill: #f36805;
+}
+
+.programmi-fedeltà {
+  font-size: 20px;
+  font-weight: bold;
+}

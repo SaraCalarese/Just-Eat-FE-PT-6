@@ -1,0 +1,28 @@
+.scarica {
+  max-width: 1040px;
+  max-height: 485px;
+}
+
+.scarica h1 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.scarica h3 {
+  font-size: 16px;
+}
+
+.googleplay {
+  cursor: pointer;
+  padding-top: 20px;
+}
+
+.scarica-app {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 400px;
+  background-color: #c1dade;
+  width: 100%;
+  padding-top: 20px;
+}

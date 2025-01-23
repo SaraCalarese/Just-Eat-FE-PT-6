@@ -1,0 +1,7 @@
+.di-cosa-hai-voglia {
+  display: flex;
+
+  gap: 50px;
+  align-items: center;
+  margin-left: 150px;
+}
