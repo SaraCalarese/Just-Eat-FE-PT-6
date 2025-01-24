@@ -1,0 +1,19 @@
+#header__album-page__album-logo__black {
+  /* filter: brightness(0) saturate(100%) invert(12%) sepia(6%) saturate(1969%)
+    hue-rotate(143deg) brightness(100%) contrast(86%);*/
+  width: 133px; /* Larghezza */
+  height: 80px; /* Altezza */
+}
+
+.seguici {
+  font-size: 16px;
+}
+
+.social-svg {
+  display: inline;
+}
+.footer-up-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
