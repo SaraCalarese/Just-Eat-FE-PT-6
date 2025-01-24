@@ -1,0 +1,19 @@
+.Immagine-logo {
+  color: var(--homepage-text-color);
+  filter: brightness(0) saturate(100%) invert(12%) sepia(6%) saturate(1969%)
+    hue-rotate(143deg) brightness(100%) contrast(86%);
+  padding-bottom: 1rem;
+}
+.seguici {
+  font-size: 16px;
+}
+
+.social-svg {
+  display: inline;
+}
+.footer-up-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+}
