@@ -19,7 +19,11 @@
   padding: 64px 0px;
 }
 
-.section-footer-up {
+.section-footer-up,
+.container,
+.last-part,
+.last-just-eat,
+.preferenze {
   background-color: #efedea;
   width: 100%;
 }
