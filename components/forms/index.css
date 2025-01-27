@@ -1,0 +1,282 @@
+/* Stile per il contenitore */
+.ordina-per {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+/* Stile per l'etichetta */
+.ordina-per label {
+  font-size: 16px;
+  font-weight: bold;
+  color: black;
+}
+
+/* Stile per il select */
+.ordina-per select {
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #d7d9da;
+  border-radius: 5px;
+  background-color: #f5f5f5;
+  width: 100%;
+  max-width: 300px;
+  cursor: pointer;
+}
+.ordina-per select:hover {
+  background-color: #efedea;
+}
+/* Stile per le opzioni del select */
+.ordina-per option {
+  padding: 10px;
+  font-size: 14px;
+  color: #333;
+  background-color: #fff;
+}
+
+/* Hover sugli options */
+
+.result:hover option {
+  background-color: #094dac; /* da verificare*/
+}
+
+.form-title,
+.importo,
+.offerte-sconti,
+.esigenze-alimentari,
+.rating {
+  font-size: 17px;
+  font-weight: bold;
+  color: black;
+  margin-bottom: 10px;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 34px;
+  height: 20px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: grey;
+  transition: 0.4s;
+  border-radius: 34px;
+  width: 40px;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  transition: 0.4s;
+}
+
+input:checked + .slider {
+  background-color: #f36805;
+}
+
+input:checked + .slider:before {
+  transform: translateX(14px);
+}
+
+.form-container {
+  max-width: 280px;
+}
+
+.aperto-ora,
+.novità,
+.consegna-gratuita {
+  font-size: 17px;
+  font-weight: bold;
+  color: black;
+}
+
+.form-group {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.form-group:last-child {
+  margin-bottom: 0;
+}
+/* Allinea il contenitore principale (price-container) */
+.price-container,
+.offer-container,
+.rating-container {
+  display: flex;
+  flex-direction: column; /* Allinea gli elementi in colonna */
+  gap: 10px; /* Distanza tra gli elementi */
+  align-items: flex-start; /* Allinea gli elementi a sinistra */
+  padding-top: 20px;
+}
+
+/* Contenitore per il titolo e l'icona */
+.importo-svg,
+.offerte-svg {
+  display: flex;
+
+  align-items: baseline;
+}
+
+.info {
+  fill: #f36805;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+/* Allineare le opzioni dei radio button */
+.mostra-tutti,
+.fino,
+.fino-a {
+  display: flex;
+  align-items: center; /* Allinea il testo e il radio button */
+  gap: 5px; /* Spazio tra il pallino e il testo */
+}
+
+/* Stile generico per i radio button */
+/* Rimuovi lo stile di default del radio button */
+.radio-input {
+  appearance: none; /* Per browser moderni */
+  -webkit-appearance: none; /* Per browser Webkit */
+  width: 20px; /* Dimensione del cerchio */
+  height: 20px;
+  border: 1px solid #b7bdbe; /* Bordo iniziale */
+  border-radius: 50%; /* Trasforma in cerchio */
+  background-color: white; /* Sfondo grigio chiaro */
+  display: inline-block;
+  position: relative; /* Necessario per il pallino interno */
+  cursor: pointer;
+  margin-right: 10px;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+/* Quando il radio è selezionato */
+.radio-input:checked {
+  background-color: #f36805; /* Sfondo arancione */
+}
+
+/* Pallino bianco al centro */
+.radio-input:checked::after {
+  content: ""; /* Elemento vuoto per il pallino */
+  width: 10px; /* Dimensione del pallino interno */
+  height: 10px;
+  background-color: white; /* Colore del pallino */
+  border-radius: 50%; /* Trasforma in cerchio */
+  position: absolute;
+  top: 50%; /* Centra verticalmente */
+  left: 50%; /* Centra orizzontalmente */
+  transform: translate(-50%, -50%); /* Centra il pallino interno */
+}
+
+/* Stile per i contenitori delle classi */
+.mostra-tutti label,
+.fino label,
+.fino-a label {
+  font-size: 15px; /* Dimensione del testo */
+  cursor: pointer; /* Cambia il puntatore per indicare cliccabilità */
+}
+
+/* Rimuovi lo stile di default del radio button */
+.carta,
+.offerte {
+  appearance: none; /* Per browser moderni */
+  -webkit-appearance: none; /* Per browser Webkit */
+  width: 20px; /* Dimensione del cerchio */
+  height: 20px;
+  border: 1px solid #b7bdbe; /* Bordo iniziale */
+
+  background-color: white;
+  display: inline-block;
+  position: relative; /* Necessario per il pallino interno */
+  cursor: pointer;
+  margin-right: 10px;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+/* Quando il radio è selezionato */
+.carta:checked,
+.offerte:checked {
+  background-color: #f36805; /* Sfondo arancione */
+}
+
+/* Pallino bianco al centro */
+.carta:checked::after,
+.offerte:checked::after {
+  content: "✔"; /* Spunta bianca */
+  position: absolute;
+  color: white;
+  font-size: 16px;
+  transition: opacity 0.3s ease;
+}
+
+/* Stile per i contenitori delle classi */
+.offerte-11,
+.carta-fedeltà,
+.halal {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 15px; /* Dimensione del testo */
+  cursor: pointer; /* Cambia il puntatore per indicare cliccabilità */
+}
+
+.disabilitato {
+  width: 20px;
+  height: 20px;
+}
+
+/* Stile delle stelline */
+.stars {
+  display: inline-block;
+  direction: rtl; /* Mostra le stelle da destra a sinistra */
+  font-size: 40px;
+  color: #ccc; /* Colore di base (grigio) */
+}
+
+/* Nascondi i radio button */
+.no-show {
+  display: none;
+}
+
+/* Stile delle stelline (etichetta) */
+.star {
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+/* Quando una stellina è selezionata (radio button checked) */
+.no-show:checked ~ label {
+  color: #f36805; /* Colore per la stellina selezionata */
+}
+
+/* Quando l'utente passa sopra la stellina (hover) */
+.star:hover,
+input[type="radio"]:checked ~ label:hover {
+  color: #f36805; /* Colore quando l'utente passa sopra */
+}
+
+/* Aggiungere l'effetto di rimpicciolimento della stellina al clic */
+.no-show:active ~ label {
+  transform: scale(0.9); /* Rimpicciolisce leggermente */
+}

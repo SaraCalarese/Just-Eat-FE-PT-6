@@ -1,0 +1,12 @@
+.di-cosa-hai-voglia {
+  display: flex;
+  margin-left: 150px;
+  gap: 50px;
+  align-items: center;
+}
+
+.di_cosa_hai_voglia {
+  width: 100%;
+  background-color: #f5f3f1;
+  padding: 20px;
+}

@@ -1,0 +1,29 @@
+.ComeOrdinareESemplicissimo {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.ComeOrdinareESemplicissimo h3 {
+  font-weight: bold;
+  font-size: 40px;
+  color: #f36805;
+}
+
+.ComeOrdinareESemplicissimo h2 {
+  font-size: 25px;
+  padding-top: 25px;
+}
+
+.come_ordinare_è_semplicissimo {
+  padding: 64px 0px;
+}
+
+.section-footer-up,
+.container,
+.last-part,
+.last-just-eat,
+.preferenze {
+  background-color: #efedea;
+  width: 100%;
+}

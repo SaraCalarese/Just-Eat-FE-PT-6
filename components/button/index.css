@@ -1,0 +1,151 @@
+/*caratteristiche del body per visualizzare i button*/
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /*gap: 10px;*/
+}
+
+.btn-cerca {
+  background-color: #f36805;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  border-radius: 9999px;
+  border: none;
+  padding: 9px 24px;
+  cursor: pointer;
+  width: 99.83px;
+  height: 47.6px;
+}
+
+.btn-cerca:hover {
+  background-color: #f75e28;
+}
+
+.btn-mostra-di-più {
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  border-radius: 5px;
+  border: 1px solid #9e9c9a;
+  padding: 1px 6px;
+  width: 100px;
+  height: 66px;
+  cursor: pointer;
+}
+
+.btn-mostra-di-più:hover {
+  background-color: #efedea;
+}
+
+.btn-first-page-top {
+  display: flex;
+  gap: 8px;
+}
+
+/* Styling per i bottoni */
+.btn-first-page-top button {
+  display: flex;
+  align-items: center;
+  border-radius: 9999px;
+  border: none;
+  background-color: white;
+  cursor: pointer;
+  font-weight: bold;
+  gap: 8px;
+  padding: 9px 24px;
+}
+
+.btn-ordine-aziendale:hover,
+.btn-diventa-rider:hover,
+.btn-diventa-partner:hover {
+  background-color: #efedea;
+}
+
+.btn-second-page-top {
+  display: flex;
+  gap: 8px;
+}
+.btn-consegna {
+  background-color: white !important;
+}
+
+.btn-second-page-top button {
+  display: flex;
+  align-items: center;
+  background-color: #f5f3f1;
+  color: black;
+  font-weight: bold;
+  border-radius: 9999px;
+  border: none;
+  gap: 8px;
+  padding: 5px 8px;
+  cursor: pointer;
+}
+.btn-messina svg,
+.btn-consegna svg {
+  fill: #ff8000;
+}
+
+.consegna-ritiro {
+  background-color: #f5f3f1;
+  display: inline-flex;
+  border-radius: 99999px;
+  gap: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.btn-italia,
+.btn-hamburger {
+  border: none;
+  background-color: white;
+  cursor: pointer;
+  border-radius: 99999px;
+  padding: 5px 8px;
+}
+.btn-italia:hover,
+.btn-hamburger:hover {
+  background-color: #f5f3f1;
+}
+.btn-map {
+  border: none;
+  background-color: #f5f3f1;
+  cursor: pointer;
+  border-radius: 99999px;
+  width: 48px;
+  height: 48px;
+}
+.btn-map:hover {
+  background-color: #efedea;
+}
+
+.btn-x {
+  border: none;
+  background-color: white;
+  cursor: pointer;
+}
+
+.btn-torna-su,
+.btn-destra,
+.btn-sinistra {
+  border-radius: 9999px;
+  border: none;
+  background-color: white;
+  width: 48px;
+  height: 48px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.btn-torna-su svg,
+.btn-destra svg,
+.btn-sinistra svg {
+  fill: #f36805;
+}
+.btn-torna-su:hover,
+.btn-destra:hover,
+.btn-sinistra:hover {
+  background-color: #efedea;
+}

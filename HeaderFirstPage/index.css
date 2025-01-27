@@ -1,0 +1,17 @@
+#header__album-page__album-logo {
+  width: 133px; /* Larghezza */
+  height: 60px; /* Altezza */
+  object-fit: contain; /* Per mantenere le proporzioni se necessario */
+}
+
+.header-first-page-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.btn-right-page {
+  padding-left: 600px;
+}

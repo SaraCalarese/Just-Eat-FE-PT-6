@@ -1,0 +1,49 @@
+.background-style {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(100deg, #efedea 50%, #ff8000 50%);
+  overflow-x: hidden;
+}
+
+.bold-container {
+  display: flex;
+  position: absolute;
+  align-items: flex-start; /* Allinea il contenuto a sinistra */
+  flex-direction: column; /* Disposizione verticale */
+  top: 50%;
+  left: 0; /* Allinea a sinistra della pagina */
+  max-width: 434px;
+  height: auto; /* Rimuove l'altezza fissa per consentire l'adattamento */
+  transform: translateY(-50%);
+  padding-left: 140px; /* Aggiunge spazio interno */
+}
+
+.bold-container h1 {
+  margin-bottom: 10px; /* Spazio tra h1 e h2 */
+}
+
+.main-text {
+  margin: 0; /* Rimuove i margini predefiniti */
+}
+
+h1.main-text {
+  font-size: 3em; /* Dimensione più grande per il titolo principale */
+  font-weight: bold; /* Testo in grassetto */
+}
+
+h2.main-text {
+  font-size: 1.5em; /* Dimensione più piccola per il sottotitolo */
+  font-weight: bold; /* Testo non troppo spesso */
+}
+
+#qualcuno-ha-detto {
+  height: 630px;
+  width: 640px;
+}
+
+.qualcuno-ha-detto {
+  display: flex;
+  float: right;
+  padding-top: 100px;
+  padding-right: 150px;
+}
