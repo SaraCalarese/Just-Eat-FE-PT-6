@@ -1,32 +1,58 @@
 .upper-container {
-  position: relative;
-  width: 6rem;
-  height: 4rem;
+  width: 2.5rem;
+  height: 2rem;
   flex-direction: column;
+  display: flex;
+  background-color: orange;
+  justify-items: center;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.quadrato-colorato-pizza {
+  justify-content: center;
 }
 
 .navbar-img-upper {
-  max-height: 100%;
-  max-width: 100%;
-  width: 5rem;
-  border-radius: 0.5rem;
+  width: 3rem;
   border-style: none;
-  background-color: orange;
+  justify-content: center;
 }
+.check-container {
+  width: 100%;
+  display: flex;
+}
+
+.personalized-check {
+  width: 0.7rem;
+  padding-bottom: 0.4rem;
+  opacity: 0;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.quadrato-colorato-pizza:hover + .check-container .hidden-tick {
+  transform: translateX(2rem); /* Muove il testo 2rem (32px) verso destra */
+}
+
+.quadrato-colorato-pizza:hover + .check-container .personalized-check {
+  opacity: 1;
+  transform: translateX(1.5rem);
+}
+
 .hidden-tick {
-  position: relative;
-  text-align: right;
-  margin-top: 0px;
-  font-weight: 400;
-  font-size: 0.8rem;
-  font-style: -apple-system, Helvetica, Arial, sans-serif;
-  max-width: 100%;
-  max-height: 100%;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  font-weight: 200;
+  font-size: 0.5rem;
+}
+
+.space {
+  height: 4rem;
 }
 
 .restaurant-card {
   background-color: #fff;
-  width: 22rem;
+  width: 4.5rem;
   border-radius: 0.5rem;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
   overflow: hidden;
@@ -38,5 +64,4 @@
 
 .img-restaurant {
   width: 100%;
-  position: absolute;
 }
