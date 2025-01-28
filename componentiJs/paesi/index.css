@@ -1,0 +1,32 @@
+.principal-container-languages {
+  float: right;
+  width: 464px;
+  height: 482px;
+}
+
+.layout-languages {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Due colonne uguali */
+  gap: 1rem; /* Spaziatura tra gli elementi */
+  list-style: none;
+  padding: 0;
+}
+
+.country-language {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.country-language:hover {
+  background-color: #f5f3f1;
+}
+
+.language-title {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.thick-italy {
+  margin-left: 100px;
+}
