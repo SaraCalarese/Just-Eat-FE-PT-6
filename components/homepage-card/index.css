@@ -1,12 +1,13 @@
 .upper-container {
-  width: 2.5rem;
-  height: 2rem;
+  width: 100px;
+  height: 66px;
   flex-direction: column;
   display: flex;
-  background-color: orange;
+  background-color: #f36805;
   justify-items: center;
   align-items: center;
   border-radius: 5px;
+  margin-bottom: 40px;
 }
 
 .quadrato-colorato-pizza {
@@ -14,9 +15,11 @@
 }
 
 .navbar-img-upper {
-  width: 3rem;
+  width: 112px;
+  height: 73px;
   border-style: none;
   justify-content: center;
+  cursor: pointer;
 }
 .check-container {
   width: 100%;
@@ -24,7 +27,7 @@
 }
 
 .personalized-check {
-  width: 0.7rem;
+  width: 16px;
   padding-bottom: 0.4rem;
   opacity: 0;
   transition: transform 0.3s ease, opacity 0.3s ease;
@@ -42,12 +45,7 @@
 .hidden-tick {
   cursor: pointer;
   transition: transform 0.3s ease;
-  font-weight: 200;
-  font-size: 0.5rem;
-}
-
-.space {
-  height: 4rem;
+  font-size: 12px;
 }
 
 .restaurant-card {
