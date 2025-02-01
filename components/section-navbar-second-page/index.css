@@ -6,8 +6,8 @@
   padding: 2rem;
 }
 .upper-container-2 {
-  width: 100px;
-  height: 66px;
+  width: 112px;
+  height: 73px;
   flex-direction: column;
   display: flex;
   background-color: purple;
@@ -18,8 +18,8 @@
 }
 
 .upper-container-3 {
-  width: 100px;
-  height: 66px;
+  width: 112px;
+  height: 73px;
   flex-direction: column;
   display: flex;
   background-color: darkorange;
@@ -30,8 +30,8 @@
 }
 
 .upper-container-4 {
-  width: 100px;
-  height: 66px;
+  width: 112px;
+  height: 73px;
   flex-direction: column;
   display: flex;
   background-color: goldenrod;
@@ -42,8 +42,8 @@
 }
 
 .upper-container-5 {
-  width: 100px;
-  height: 66px;
+  width: 112px;
+  height: 73px;
   flex-direction: column;
   display: flex;
   background-color: #8bbcfe;
@@ -54,8 +54,8 @@
 }
 
 .upper-container-6 {
-  width: 100px;
-  height: 66px;
+  width: 112px;
+  height: 73px;
   flex-direction: column;
   display: flex;
   background-color: pink;
@@ -65,8 +65,8 @@
   margin-bottom: 40px;
 }
 .upper-container-7 {
-  width: 100px;
-  height: 66px;
+  width: 112px;
+  height: 73px;
   flex-direction: column;
   display: flex;
   background-color: orange;
@@ -76,8 +76,8 @@
   margin-bottom: 40px;
 }
 .upper-container-8 {
-  width: 100px;
-  height: 66px;
+  width: 112px;
+  height: 73px;
   flex-direction: column;
   display: flex;
   background-color: purple;
@@ -93,7 +93,7 @@
   border-radius: 5px;
   border: 1px solid #9e9c9a;
   padding: 1px 6px;
-  width: 100px;
-  height: 66px;
+  width: 112px;
+  height: 73px;
   cursor: pointer;
 }
