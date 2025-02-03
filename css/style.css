@@ -6,6 +6,7 @@
 @import url(../componentiJs/paesi/index.css);
 @import url(../componentiJs/tendinaMenu/index.css);
 @import url(../components/homepage-card/index.css);
+
 @import url(../SectionAside/index.css);
 @import url(../SectionScaricalApp/index.css);
 @import url(../SectionDiCosaHaiVoglia/index.css);
@@ -15,4 +16,5 @@
 @import url(../HeaderFirstPage/index.css);
 @import url(../Section1Homepage/index.css);
 @import url(../HeaderSecondPage/index.css);
+@import url(../components/section-navbar-second-page/index.css);
 @import url(../MainFirstPage/index.css);
