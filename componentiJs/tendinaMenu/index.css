@@ -1,0 +1,92 @@
+.il-mio-account h2 {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.il-mio-account {
+  display: flex;
+  align-items: center;
+  gap: 458px;
+  padding-bottom: 20px;
+}
+.accedi-bottone,
+.crea-bottone {
+  font-weight: bold;
+  font-size: 16px;
+  border-radius: 9999px;
+  border: none;
+  padding: 5px 16px;
+  cursor: pointer;
+  width: 268px;
+  height: 39.6px;
+}
+
+.crea-bottone {
+  color: white;
+  background-color: #f36805;
+}
+
+.accedi-bottone:hover {
+  background-color: #efedea;
+}
+
+.crea-bottone:hover {
+  background-color: #f75e28;
+}
+
+.link-modificati {
+  text-decoration: none;
+  display: flex;
+  color: black;
+  margin-top: 30px;
+}
+
+.dimensioni-testi-hamburger,
+.posizione-svg {
+  display: inline;
+  align-items: center;
+  justify-content: center;
+}
+
+.lista-link-utili {
+  display: flex;
+  font-size: 16px;
+  gap: 15px;
+  width: 100%;
+  height: 25px;
+}
+
+.lista-link-utili:hover {
+  background-color: #efedea;
+}
+
+.non-visualizzare-da-computer {
+  display: none;
+}
+
+.tendina-container {
+  width: 600px;
+  height: 412.6px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.contenitore-accedi-crea {
+  display: inline;
+
+  padding: 20px;
+}
+.linea-divisoria {
+  border: none;
+  border-top: 2px solid #ccc;
+  margin: 20px 0;
+  width: 100%;
+}
+
+#chiudi-tendina-hamburger {
+  cursor: pointer;
+}

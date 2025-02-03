@@ -1,6 +1,8 @@
 .upper-container {
-  width: 112px;
-  height: 73px;
+
+  width: 100px;
+  height: 66px;
+
   flex-direction: column;
   display: flex;
   background-color: #f36805;
@@ -46,6 +48,7 @@
   cursor: pointer;
   transition: transform 0.3s ease;
   font-size: 12px;
+
 }
 
 .restaurant-card {
@@ -54,8 +57,9 @@
   overflow: hidden;
   background: white;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-  font-family: Arial, sans-serif;
+ 
   transition: transform 0.2s ease-in-out;
+
 }
 
 .photo {
