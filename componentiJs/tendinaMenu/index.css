@@ -65,8 +65,8 @@
 }
 
 .tendina-container {
-  width: 600px;
-  height: 412.6px;
+  max-width: 600px;
+  /* max-height: 412.6px;*/
   border-radius: 8px;
   /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);*/
   /*background-color: white;*/
@@ -74,6 +74,7 @@
   top: 45%;
   left: 50%;
   transform: translate(-50%, -50%);
+  z-index: 999;
 }
 
 .contenitore-accedi-crea {
