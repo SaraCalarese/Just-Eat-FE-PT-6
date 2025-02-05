@@ -33,7 +33,8 @@ h1.main-text {
 
 h2.main-text {
   font-size: 1.5em; /* Dimensione più piccola per il sottotitolo */
-  font-weight: bold; /* Testo non troppo spesso */
+  font-weight: bold;
+  padding-bottom: 30px;
 }
 
 #qualcuno-ha-detto {
