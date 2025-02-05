@@ -1,0 +1,34 @@
+.search {
+  background-color: white;
+  border: 1px solid gray;
+  display: inline;
+  border-radius: 20px;
+  padding: 0.8rem;
+  padding-right: 0.1rem;
+}
+
+.search-field {
+  border: none;
+  padding: 0.8rem;
+}
+
+.search-field:focus {
+  border: none;
+  outline: none;
+}
+
+.search-submit {
+  background-color: orange;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 0.7rem;
+  font-weight: 700;
+  height: 100%;
+  width: 80px;
+  cursor: pointer;
+}
+
+.search-submit:hover {
+  background-color: darkorange;
+}
