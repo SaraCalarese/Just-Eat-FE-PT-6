@@ -116,3 +116,12 @@ body {
 .puntatore-hamburger-menu {
   cursor: pointer;
 }
+
+/*Bottone torna su*/
+.btn-torna-su {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  display: none; /* Nascosto inizialmente*/
+  transition: opacity 0.3s;
+}

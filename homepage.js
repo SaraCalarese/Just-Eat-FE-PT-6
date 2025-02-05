@@ -39,3 +39,25 @@ document.addEventListener("click", function (event) {
     showTendinaLingue.classList.remove("show-tendina-lingue");
   }
 });
+
+//funzionalità bottone torna su
+
+const backToTopButton = document.querySelector(".btn-torna-su");
+
+// Mostra il bottone quando l'utente scrolla verso il basso
+window.addEventListener("scroll", () => {
+  if (window.scrollY > 300) {
+    // Mostra il bottone dopo 300px di scroll
+    backToTopButton.style.display = "block";
+  } else {
+    backToTopButton.style.display = "none";
+  }
+});
+
+// Torna in cima quando il bottone viene cliccato
+backToTopButton.addEventListener("click", () => {
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth", // Scroll animato
+  });
+});
