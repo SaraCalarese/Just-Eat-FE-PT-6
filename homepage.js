@@ -25,7 +25,27 @@ chiudiBtn.addEventListener("click", () => {
   showTendina.classList.remove("show-tendina");
   showTendinaBackdrop.classList.remove("show-tendina-backdrop");
 });
+// Chiudi la tendina quando si clicca fuori di essa (sul backdrop)
+document.addEventListener("click", function (event) {
+  // Verifica se il clic non è avvenuto sulla tendina stessa o sul bottone
+  if (
+    !showTendina.contains(event.target) &&
+    !bottoneHamburger.contains(event.target)
+  ) {
+    showTendina.classList.remove("show-tendina");
+    showTendinaBackdrop.classList.remove("show-tendina-backdrop");
+  }
+});
 
+// Chiudi la tendina quando si clicca sulla tendina stessa (fuori dal contenuto)
+document
+  .querySelector(".tendina")
+  .addEventListener("click", function (clickTendina) {
+    if (clickTendina.target === this) {
+      showTendina.classList.remove("show-tendina");
+      showTendinaBackdrop.classList.remove("show-tendina-backdrop");
+    }
+  });
 // bottone - lingue
 const bottoneLingue = document.querySelector(`.btn-italia`);
 const showTendinaLingue = document.querySelector(`.tendina-lingue-container`);
