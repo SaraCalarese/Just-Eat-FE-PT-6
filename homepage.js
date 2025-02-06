@@ -2,9 +2,11 @@
 
 const bottoneHamburger = document.querySelector(".btn-hamburger");
 const showTendina = document.querySelector(".tendina-container");
+const showTendinaBackdrop = document.querySelector(".tendina-backdrop");
 
 bottoneHamburger.addEventListener("click", function () {
   showTendina.classList.toggle("show-tendina");
+  showTendinaBackdrop.classList.toggle("show-tendina-backdrop");
 });
 
 document
@@ -12,6 +14,7 @@ document
   .addEventListener("click", function (clickTendina) {
     if (clickTendina.target === this) {
       showTendina.classList.remove("show-tendina");
+      showTendinaBackdrop.classList.remove("show-tendina-backdrop");
     }
   });
 
@@ -20,6 +23,7 @@ const chiudiBtn = document.getElementById("chiudi-tendina-hamburger");
 
 chiudiBtn.addEventListener("click", () => {
   showTendina.classList.remove("show-tendina");
+  showTendinaBackdrop.classList.remove("show-tendina-backdrop");
 });
 
 // bottone - lingue
