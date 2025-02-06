@@ -1,0 +1,9 @@
+.carosello-container {
+  justify-content: center;
+  width: 904px;
+}
+
+.carosello {
+  display: flex;
+  gap: 20px;
+}
