@@ -15,7 +15,7 @@
 
 .search-field {
   border: none;
-  width: 329px;
+  max-width: 329px;
   max-height: 24px;
   margin-top: 13px;
 }

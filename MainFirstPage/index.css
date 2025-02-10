@@ -38,8 +38,8 @@ h2.main-text {
 }
 
 #qualcuno-ha-detto {
-  height: 630px;
-  width: 640px;
+  max-height: 630px;
+  max-width: 640px;
 }
 
 .qualcuno-ha-detto {
@@ -47,4 +47,36 @@ h2.main-text {
   float: right;
   padding-top: 100px;
   padding-right: 150px;
+}
+
+@media (min-width: 320px) and (max-width: 576px) {
+  .background-style {
+    display: block;
+    position: relative;
+
+    background: linear-gradient(160deg, #efedea 50%, #ff8000 50%);
+  }
+
+  .bold-container {
+    position: absolute;
+    top: 130px;
+    left: 0;
+    right: 0;
+
+    padding: 20px;
+  }
+
+  .qualcuno-ha-detto {
+    position: relative;
+    margin-top: 310px;
+    padding-right: 0;
+  }
+
+  #qualcuno-ha-detto {
+    width: 100%;
+    padding-right: 0;
+  }
+  .ricerca {
+    max-width: 320px;
+  }
 }

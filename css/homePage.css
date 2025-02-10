@@ -349,3 +349,47 @@ body {
   justify-content: center;
   padding: 4px 16px 12px;
 }
+@media (min-width: 320px) and (max-width: 576px) {
+  .container {
+    flex-direction: column;
+    padding: 0;
+    gap: 0rem;
+    width: 100%;
+  }
+
+  .indice {
+    font-size: 0.9rem;
+    border: none;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    font-weight: 700;
+  }
+
+  .last-part {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0px;
+  }
+
+  .lista-links {
+    width: 300px;
+    padding-left: 1rem;
+  }
+
+  .links-left {
+    width: 100%;
+  }
+
+  .info {
+    width: 100%;
+  }
+
+  .sito {
+    margin: 0;
+    font-size: 0.8rem;
+    font-family: var(--font-family);
+  }
+
+  .ultima-classe {
+    padding: 0;
+  }
+}

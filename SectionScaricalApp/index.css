@@ -26,3 +26,11 @@
   width: 100%;
   padding-top: 20px;
 }
+@media (min-width: 320px) and (max-width: 576px) {
+  .scarica-app {
+    gap: 10px;
+  }
+  .phone-img {
+    max-width: 60px;
+  }
+}
