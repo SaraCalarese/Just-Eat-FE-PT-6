@@ -1,9 +1,27 @@
+.section-title {
+  font-size: x-large;
+  font-weight: 800;
+}
+
 .carosello-container {
   justify-content: center;
-  width: 904px;
+  max-width: 904px;
+}
+
+.carosello-wrapped {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
 }
 
 .carosello {
   display: flex;
   gap: 20px;
+  flex-wrap: nowrap;
+}
+
+.restaurant-card {
+  flex: 0 0 calc(100% / 3);
 }
