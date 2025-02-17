@@ -1,3 +1,26 @@
+/* Stile della scrollbar */
+::-webkit-scrollbar {
+  width: 10px; /* Larghezza della scrollbar */
+}
+
+/* Stile della traccia della scrollbar */
+::-webkit-scrollbar-track {
+  background-color: #f1f1f1; /* Colore di sfondo della traccia */
+  border-radius: 10px; /* Angoli arrotondati della traccia */
+}
+
+/* Stile del cursore della scrollbar */
+::-webkit-scrollbar-thumb {
+  background-color: #888; /* Colore del cursore */
+  border-radius: 10px; /* Angoli arrotondati del cursore */
+  border: 2px solid #f1f1f1; /* Colore del bordo del cursore */
+}
+
+/* Stile del cursore al passaggio del mouse */
+::-webkit-scrollbar-thumb:hover {
+  background-color: #555; /* Colore del cursore quando il mouse è sopra */
+}
+
 .second-page-container {
   display: grid;
   height: 100vh;
@@ -16,9 +39,24 @@
 
 .form-container {
   grid-area: aside;
-  margin-left: 200px;
+  margin-left: 150px;
+  padding: 25px;
 }
 
 .sezione-ricerca {
   grid-area: search;
+  padding: 20px;
+}
+/*Bottone torna su*/
+.btn-torna-su {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  display: none; /* Nascosto inizialmente*/
+  transition: opacity 0.3s;
+}
+
+.btn-torna-su.visible {
+  visibility: visible;
+  opacity: 1;
 }

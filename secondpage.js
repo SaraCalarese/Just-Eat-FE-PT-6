@@ -38,3 +38,25 @@ function toggleLeftButton() {
 
 // Imposta il bottone a sinistra come nascosto all'inizio
 leftButton.classList.remove("visible");
+
+//funzionalità bottone torna su
+
+const backToTopButton = document.querySelector(".btn-torna-su");
+
+// Mostra il bottone quando l'utente scrolla verso il basso
+window.addEventListener("scroll", () => {
+  if (window.scrollY > 50) {
+    // Mostra il bottone dopo 50px di scroll
+    backToTopButton.style.display = "block";
+  } else {
+    backToTopButton.style.display = "none";
+  }
+});
+
+// Torna in cima quando il bottone viene cliccato
+backToTopButton.addEventListener("click", () => {
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth", // Scroll animato
+  });
+});
