@@ -6,11 +6,12 @@
 .carosello-container {
   justify-content: center;
   max-width: 904px;
+  position: relative;
 }
 
 .carosello-wrapped {
   display: flex;
-  overflow-x: auto;
+  overflow-x: hidden;
   scroll-snap-type: x mandatory;
   scroll-behavior: smooth;
   -webkit-overflow-scrolling: touch;
@@ -24,4 +25,28 @@
 
 .restaurant-card {
   flex: 0 0 calc(100% / 3);
+}
+
+.btn-destra {
+  z-index: 999;
+  position: absolute;
+  right: -20px; /* Aggiunge un po' di spazio a destra */
+  top: 50%; /* Posiziona il pulsante al centro verticalmente */
+  transform: translateY(-50%);
+}
+
+.btn-sinistra {
+  z-index: 999;
+  position: absolute;
+  left: -20px; /* Aggiunge un po' di spazio a destra */
+  top: 50%; /* Posiziona il pulsante al centro verticalmente */
+  transform: translateY(-50%);
+  display: none; /* Nascosto inizialmente*/
+  transition: opacity 0.3s;
+}
+.btn-sinistra.visible {
+  display: block; /* Mostra il bottone */
+  opacity: 1; /* Rende il bottone visibile */
+  visibility: visible; /* Lo rende interattivo */
+  transition: opacity 0.3s, visibility 0s 0s; /* Rimuove il ritardo per la visibilità */
 }
