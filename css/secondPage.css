@@ -60,3 +60,10 @@
   visibility: visible;
   opacity: 1;
 }
+
+@media (min-width: 320px) and (max-width: 1024px) {
+  .form-container,
+  .sezione-ricerca {
+    display: none;
+  }
+}
