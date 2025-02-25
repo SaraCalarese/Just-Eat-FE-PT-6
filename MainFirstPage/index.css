@@ -15,7 +15,7 @@
   max-width: 434px;
   height: auto; /* Rimuove l'altezza fissa per consentire l'adattamento */
   transform: translateY(-50%);
-  padding-left: 140px; /* Aggiunge spazio interno */
+  padding-left: 50px; /* Aggiunge spazio interno */
 }
 
 .bold-container h1 {
@@ -38,18 +38,18 @@ h2.main-text {
 }
 
 #qualcuno-ha-detto {
-  max-height: 630px;
-  max-width: 640px;
+  max-height: 440px;
+  max-width: 400px;
 }
 
 .qualcuno-ha-detto {
   display: flex;
   float: right;
   padding-top: 100px;
-  padding-right: 150px;
+  padding-right: 100px;
 }
 
-@media (min-width: 320px) and (max-width: 576px) {
+@media (min-width: 320px) and (max-width: 1024px) {
   .background-style {
     display: block;
     position: relative;

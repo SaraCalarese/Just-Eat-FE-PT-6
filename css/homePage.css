@@ -393,3 +393,11 @@ body {
     padding: 0;
   }
 }
+
+/*@media (min-width: 320px) and (max-width: 576px) {
+  .background-style {}
+
+  .bold-container {}
+
+  .qualcuno-ha-detto {}
+}*/

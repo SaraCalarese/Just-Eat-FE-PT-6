@@ -1,0 +1,6 @@
+.research_locals {
+  border: 1px solid gray;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}

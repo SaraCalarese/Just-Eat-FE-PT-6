@@ -13,10 +13,10 @@
 }
 
 .btn-right-page {
-  padding-left: 600px;
+  padding-left: 300px;
 }
 
-@media (min-width: 320px) and (max-width: 576px) {
+@media (min-width: 320px) and (max-width: 1024px) {
   .header-first-page-container {
     padding: 10px;
   }
