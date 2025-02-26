@@ -47,6 +47,11 @@
   grid-area: search;
   padding: 20px;
 }
+
+.carosello-container .card-orizzontali {
+  grid-area: main;
+}
+
 /*Bottone torna su*/
 .btn-torna-su {
   position: fixed;
