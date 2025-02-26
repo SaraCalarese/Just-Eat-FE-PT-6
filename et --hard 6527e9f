@@ -1,0 +1,74 @@
+[33mc21943a[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m HEAD@{0}: reset: moving to HEAD~4
+[33mcbfc182[m HEAD@{1}: reset: moving to HEAD~4
+[33m991e450[m HEAD@{2}: commit (merge): modifica layout homepage
+[33m6527e9f[m HEAD@{3}: commit: modifica layout homepage
+[33ma7b35a2[m HEAD@{4}: commit: aggiunta barraricerca seconda pagina
+[33m9106a70[m HEAD@{5}: checkout: moving from main to main
+[33m9106a70[m HEAD@{6}: reset: moving to HEAD~3
+[33m04319f2[m[33m ([m[1;32mlavoro-martina[m[33m)[m HEAD@{7}: checkout: moving from lavoro-martina to main
+[33m04319f2[m[33m ([m[1;32mlavoro-martina[m[33m)[m HEAD@{8}: checkout: moving from main to lavoro-martina
+[33m04319f2[m[33m ([m[1;32mlavoro-martina[m[33m)[m HEAD@{9}: checkout: moving from main to main
+[33m04319f2[m[33m ([m[1;32mlavoro-martina[m[33m)[m HEAD@{10}: commit: aggiunta barra di ricerca secondpage
+[33m5708029[m[33m ([m[1;31morigin/salva-lavoro-martina[m[33m, [m[1;32msalva-lavoro-martina[m[33m)[m HEAD@{11}: checkout: moving from salva-lavoro-martina to main
+[33m5708029[m[33m ([m[1;31morigin/salva-lavoro-martina[m[33m, [m[1;32msalva-lavoro-martina[m[33m)[m HEAD@{12}: checkout: moving from main to salva-lavoro-martina
+[33m5708029[m[33m ([m[1;31morigin/salva-lavoro-martina[m[33m, [m[1;32msalva-lavoro-martina[m[33m)[m HEAD@{13}: pull: Fast-forward
+[33m9106a70[m HEAD@{14}: commit: modifica layout seconda pagina e aggiunta button torna su seconda pagina
+[33mcbfc182[m HEAD@{15}: commit: aggiunta button carosello seconda pagian
+[33mfe234d9[m HEAD@{16}: pull: Fast-forward
+[33m6b0daa2[m HEAD@{17}: commit: modifica aside secondpage
+[33m28bbd8d[m HEAD@{18}: commit: aggiunta sezione card secondpage
+[33mc21943a[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m HEAD@{19}: pull: Fast-forward
+[33mea8fa20[m HEAD@{20}: commit: inizio parte mobile
+[33m500ce31[m HEAD@{21}: commit: modifica layout tendina lingue e aggiunta link footer
+[33m2129b96[m HEAD@{22}: commit: modifica tendina hamburger
+[33m2fc2c32[m HEAD@{23}: commit (merge): aggiunta tendina opaca hamburger menu
+[33m8b5aef3[m HEAD@{24}: commit: aggiunta sfondo opaco tendina
+[33m4d0aa96[m HEAD@{25}: Branch: renamed refs/heads/main to refs/heads/main
+[33m4d0aa96[m HEAD@{27}: commit: first commit
+[33m7fc8e32[m HEAD@{28}: commit: modifiche tendina hamburger
+[33m4fd61d7[m HEAD@{29}: commit: aggiunta barra di ricerca homepage
+[33md539ed7[m HEAD@{30}: pull: Fast-forward
+[33m1b20ab1[m HEAD@{31}: commit: aggiunta tasto torna su
+[33m1d97e4a[m HEAD@{32}: commit: aggiunta tendine paesi e hamburger homepage
+[33m8fe6f0d[m HEAD@{33}: commit: aggiunta section card piccole in second page
+[33m6717648[m HEAD@{34}: pull: Fast-forward
+[33mfb5d9e8[m HEAD@{35}: commit: modifica layout tendina menu
+[33m3e8e105[m HEAD@{36}: commit: creazione tendina hamburger
+[33m834700f[m HEAD@{37}: commit: aggiunta bordo tendina lingue
+[33m4d1fae3[m HEAD@{38}: commit: creazione tendina lingue
+[33m9461422[m HEAD@{39}: commit: modifica layout homepage-card
+[33m91c102b[m HEAD@{40}: pull origin main: Fast-forward
+[33mfc052f8[m HEAD@{41}: checkout: moving from form to main
+[33m4a28ed8[m[33m ([m[1;31morigin/form[m[33m, [m[1;32mform[m[33m)[m HEAD@{42}: commit: aggiunta footer homepage
+[33md7409f0[m HEAD@{43}: commit: aggiunta sezione footer-up in homepage
+[33m2f1ecfd[m HEAD@{44}: commit: aggiunta sezione footerUp
+[33m8262ee3[m HEAD@{45}: commit: creazione sezione di cosa hai voglia homepage
+[33ma7029a5[m HEAD@{46}: commit: creazione sezione di cosa hai voglia
+[33m30440c7[m HEAD@{47}: commit: aggiunta sezione homepage
+[33md771d80[m HEAD@{48}: commit: cambio colore slider
+[33md803997[m HEAD@{49}: commit: modifica layout homepage
+[33m599cb76[m HEAD@{50}: commit: aggiunta sezione ricerca
+[33m70029f9[m HEAD@{51}: commit: creazione secondpagefinal
+[33m0e7262b[m HEAD@{52}: commit: creazione seconda pagina finale html
+[33mbe14e67[m HEAD@{53}: commit: creazione pagina finale first page
+[33mf6b6c01[m HEAD@{54}: commit: creazione main first page
+[33m2cc8fa3[m HEAD@{55}: commit: aggiunta import in css
+[33m6865341[m HEAD@{56}: commit: creazione header seconda pagina
+[33mbb1d9e7[m HEAD@{57}: commit: creazione sezione superiore prima pagina
+[33mcbb8b33[m HEAD@{58}: commit: cambio nome cartella in SectionAside e creazione cartella css con import
+[33m0761f50[m HEAD@{59}: commit: modifica layout Sezione Aside
+[33md51626d[m HEAD@{60}: commit: creazione Section Aside
+[33mb98c8db[m HEAD@{61}: commit: modifica css forms
+[33ma6ac404[m HEAD@{62}: commit: aggiunta form finali
+[33md86f39e[m HEAD@{63}: commit: creazione secondo form
+[33m91ad736[m HEAD@{64}: commit: modifica stile form
+[33mb6119ee[m HEAD@{65}: commit: creazione form seconda pagina
+[33me053644[m HEAD@{66}: commit: creazione cartella forms
+[33m4dbda61[m HEAD@{67}: pull origin main: Fast-forward
+[33mf22c40e[m[33m ([m[1;31morigin/button[m[33m, [m[1;32mbutton[m[33m)[m HEAD@{68}: checkout: moving from button to form
+[33mf22c40e[m[33m ([m[1;31morigin/button[m[33m, [m[1;32mbutton[m[33m)[m HEAD@{69}: commit: stilizzazione dei button
+[33m8acb4da[m HEAD@{70}: commit: modifica common css. Creazione button in html
+[33m7981c68[m HEAD@{71}: commit: creazione cartella button
+[33mfc052f8[m HEAD@{72}: checkout: moving from main to button
+[33mfc052f8[m HEAD@{73}: commit: creazione common.css
+[33mb05f617[m HEAD@{74}: commit (initial): creazione cartelle di base

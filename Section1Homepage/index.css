@@ -28,7 +28,9 @@
   max-width: 1204px;
   max-height: 180px;
   gap: 50px;
+  margin: 0 auto; /* Centra il contenitore orizzontalmente */
 }
+
 @media (min-width: 320px) and (max-width: 576px) {
   .trova-cio-che-desideri,
   .ordina-con-consegna {
