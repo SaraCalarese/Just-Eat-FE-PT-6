@@ -1,0 +1,25 @@
+.research_locals {
+  border: 1px solid lightgray;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  cursor: pointer;
+  border-radius: 45px;
+  width: 500px;
+}
+.research_locals:hover {
+  background-color: #efedea;
+}
+.svg {
+  margin-right: 15px;
+}
+
+.search-locals {
+  background: none;
+  border: none;
+  font-size: 1rem;
+}
+
+.search-locals:focus {
+  outline: none;
+}
