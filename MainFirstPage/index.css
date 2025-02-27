@@ -79,4 +79,7 @@ h2.main-text {
   .ricerca {
     max-width: 320px;
   }
+  .background-style {
+    width: 100%;
+  }
 }

@@ -260,4 +260,9 @@ table {
 
 body {
   font-family: "JETSansDigital", sans-serif;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
 }

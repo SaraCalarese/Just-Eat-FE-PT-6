@@ -10,3 +10,9 @@
   background-color: #f5f3f1;
   padding: 20px;
 }
+@media (max-width: 480px) {
+  .di-cosa-hai-voglia {
+    margin-left: 0;
+    flex-wrap: wrap;
+  }
+}

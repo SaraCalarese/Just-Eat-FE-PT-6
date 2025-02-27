@@ -29,8 +29,6 @@
 @media (min-width: 320px) and (max-width: 576px) {
   .scarica-app {
     gap: 10px;
-  }
-  .phone-img {
-    max-width: 60px;
+    flex-direction: column;
   }
 }
