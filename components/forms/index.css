@@ -138,7 +138,7 @@ input:checked + .slider:before {
   align-items: baseline;
 }
 
-.info {
+.info-svg {
   fill: #f36805;
   width: 20px;
   height: 20px;
