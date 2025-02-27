@@ -100,7 +100,7 @@ document.addEventListener("DOMContentLoaded", function () {
       name: "Take Away",
       image:
         "https://just-eat-prod-eu-res.cloudinary.com/image/upload/c_thumb,h_136,w_288/f_auto/q_auto/d_it:cuisines:hamburger-3.jpg/v1/it/restaurants/217753.jpg",
-      logo: "",
+      logo: "https://d2egcvq7li5bpq.cloudfront.net/it/images/restaurants/217753.gif",
       averageRating: 3.9,
       ratingNumber: 120,
       categories: "rosticceria",
@@ -125,7 +125,7 @@ document.addEventListener("DOMContentLoaded", function () {
   // Funzione per creare dinamicamente una card per ogni ristorante
   function creaCard(ristorante) {
     const card = document.createElement("div"); // Crea un nuovo div
-    card.className = "ricerca-card-orizzontale"; // Assegna la classe CSS
+    card.className = "contenitore-risultati"; // Assegna la classe CSS
 
     // Inserisce il contenuto HTML all'interno della card
     card.innerHTML = `
@@ -287,7 +287,7 @@ const backToTopButton = document.querySelector(".btn-torna-su");
 
 // Mostra il bottone quando l'utente scrolla verso il basso
 window.addEventListener("scroll", () => {
-  if (window.scrollY > 50) {
+  if (window.scrollY > 300) {
     // Mostra il bottone dopo 50px di scroll
     backToTopButton.style.display = "block";
   } else {
