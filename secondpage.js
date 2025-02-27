@@ -124,11 +124,7 @@ document.addEventListener("DOMContentLoaded", function () {
   ];
   // Funzione per creare dinamicamente una card per ogni ristorante
   function creaCard(ristorante) {
-    const card = document.createElement("div"); // Crea un nuovo div
-    card.className = "contenitore-risultati"; // Assegna la classe CSS
-
-    // Inserisce il contenuto HTML all'interno della card
-    card.innerHTML = `
+    return `
     
         <div class="restaurant-card2">
           <div class="immagine-card-loghi">
@@ -192,8 +188,6 @@ document.addEventListener("DOMContentLoaded", function () {
         </div>
       </a>
     `;
-
-    return card; // Restituisce la card creata
   }
 
   // Funzione per mostrare e filtrare i ristoranti in base alla ricerca
@@ -203,7 +197,7 @@ document.addEventListener("DOMContentLoaded", function () {
       ristorante.name.toLowerCase().includes(filtro.toLowerCase())
     );
     risultati.forEach((ristorante) => {
-      container.appendChild(creaCard(ristorante));
+      container.innerHTML += creaCard(ristorante);
     });
   }
 
@@ -212,7 +206,7 @@ document.addEventListener("DOMContentLoaded", function () {
   //Funzione per nascondere il carosello durante la ricerca
   function nascondiSezioneRistorantiZona() {
     const sezioniRistorantiZona = document.querySelectorAll(
-      ".carosello-container"
+      ".carosello-container h2, .carosello-wrapped"
     );
     sezioniRistorantiZona.forEach((sezione) => {
       sezione.style.display = "none";
