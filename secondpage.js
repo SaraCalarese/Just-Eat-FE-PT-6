@@ -216,7 +216,7 @@ document.addEventListener("DOMContentLoaded", function () {
   //Funzione per mostrare il carosello
   function mostraSezioneRistorantiZona() {
     const sezioniRistorantiZona = document.querySelectorAll(
-      ".carosello-container"
+      ".carosello-container h2, .carosello-wrapped"
     );
     sezioniRistorantiZona.forEach((sezione) => {
       sezione.style.display = "block";
