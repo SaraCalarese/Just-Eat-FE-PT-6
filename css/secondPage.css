@@ -51,7 +51,12 @@
 .carosello-container .card-orizzontali {
   grid-area: main;
 }
-
+.signore-mio {
+  display: flex;
+  gap: 510px;
+  align-items: center;
+  justify-content: center;
+}
 /*Bottone torna su*/
 .btn-torna-su {
   position: fixed;
@@ -269,9 +274,43 @@
     align-items: center;
     justify-content: space-between;
     width: 100%;
+    gap: 18px;
   }
   .restaurant-card2 {
     flex-direction: column;
     max-height: 100%;
+  }
+  .immagine-ricerca-ristorante img {
+    width: 100%;
+  }
+
+  /*Stili per la scrollbar*/
+
+  .sezione-ricerca,
+  .superior-section-img {
+    overflow-x: auto;
+    -ms-overflow-style: none; /* Nasconde la scrollbar su Edge Legacy (vecchio) */
+    scrollbar-width: thin; /* Per Firefox */
+  }
+
+  /* Nasconde la scrollbar quando inattiva */
+  .sezione-ricerca::-webkit-scrollbar,
+  .superior-section-img::-webkit-scrollbar {
+    height: 6px; /* Altezza della scrollbar */
+    background: transparent;
+  }
+
+  /* Mostra la scrollbar solo durante lo scroll */
+  .sezione-ricerca::-webkit-scrollbar-thumb,
+  .superior-section-img::-webkit-scrollbar-thumb {
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 3px;
+    transition: background 0.3s;
+  }
+
+  /* Rende la scrollbar più visibile quando si interagisce */
+  .sezione-ricerca:hover::-webkit-scrollbar-thumb,
+  .superior-section-img:hover::-webkit-scrollbar-thumb {
+    background: rgba(0, 0, 0, 0.6);
   }
 }
